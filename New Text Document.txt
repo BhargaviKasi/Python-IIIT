@@ -1,0 +1,43 @@
+marks=int(input("Enter marks:"))
+passing=50
+distinction=90
+
+if marks >= distinction:
+    print("Dinstinction")
+if marks>=passing and marks< distinction:
+    print("Pass")
+if marks< passing:
+    print("Failed")
+
+
+statement="The coffee is bad"
+if 'bad' in statement:
+    print("It's a bad review")
+Statement="Iam very good"
+if 'bad' in statement:
+    print("Good review")
+
+'z' in "hello"
+
+@)If else
+num=int(input("Enter any number:"))
+if num%2==0:
+    if num%4==0:
+        print("Divisible by 4")
+    else:
+        print("Not divisible by 4")
+else:
+    if num%3==0:
+        print("Divisible by 3")
+    else:
+        print("Not divisible by 3")
+
+
+year=int(input("Enter any year:"))
+if year%400:
+    print("Leap year")
+else:
+    if year%4==0 and year%100!=0:
+        print("Leap year")
+    else:
+        print("Not a leap year")
